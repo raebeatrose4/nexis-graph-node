@@ -929,13 +929,13 @@ version = "2.1.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "62c6fcf842f17f8c78ecf7c81d75c5ce84436b41ee07e03f490fbb5f5a8731d8"
 dependencies = [
- "bigdecimal 0.1.2",
+ "bigdecimal 0.3.1",
  "bitflags 2.4.0",
  "byteorder",
  "chrono",
  "diesel_derives",
  "itoa",
- "num-bigint 0.2.6",
+ "num-bigint 0.4.4",
  "num-integer",
  "num-traits",
  "pq-sys",
@@ -1511,7 +1511,7 @@ dependencies = [
  "http",
  "humantime",
  "isatty",
- "itertools 0.12.0",
+ "itertools 0.13.0",
  "lazy_static",
  "lru_time_cache",
  "maplit",
@@ -1611,7 +1611,7 @@ dependencies = [
  "graph-runtime-wasm",
  "hex",
  "http",
- "itertools 0.12.0",
+ "itertools 0.13.0",
  "jsonrpc-core",
  "lazy_static",
  "prost",
@@ -1883,7 +1883,7 @@ dependencies = [
  "graph",
  "graphql-parser",
  "hex",
- "itertools 0.12.0",
+ "itertools 0.13.0",
  "lazy_static",
  "lru_time_cache",
  "maybe-owned",
@@ -2439,9 +2439,18 @@ dependencies = [
 
 [[package]]
 name = "itertools"
-version = "0.12.0"
+version = "0.12.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "25db6b064527c5d482d0423354fcd07a89a2dfe07b67892e62411946db7f07b0"
+checksum = "ba291022dbbd398a455acf126c1e341954079855bc60dfdda641363bd6922569"
+dependencies = [
+ "either",
+]
+
+[[package]]
+name = "itertools"
+version = "0.13.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "413ee7dfc52ee1a4949ceeb7dbc8a33f2d6c088194d9f922fb8318faf1f01186"
 dependencies = [
  "either",
 ]
@@ -2967,7 +2976,7 @@ dependencies = [
  "futures 0.3.16",
  "humantime",
  "hyper",
- "itertools 0.12.0",
+ "itertools 0.12.1",
  "parking_lot 0.12.1",
  "percent-encoding",
  "quick-xml",
