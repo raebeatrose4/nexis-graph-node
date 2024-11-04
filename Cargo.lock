@@ -929,13 +929,13 @@ version = "2.1.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "62c6fcf842f17f8c78ecf7c81d75c5ce84436b41ee07e03f490fbb5f5a8731d8"
 dependencies = [
- "bigdecimal 0.1.2",
+ "bigdecimal 0.3.1",
  "bitflags 2.4.0",
  "byteorder",
  "chrono",
  "diesel_derives",
  "itoa",
- "num-bigint 0.2.6",
+ "num-bigint 0.4.4",
  "num-integer",
  "num-traits",
  "pq-sys",
@@ -2599,9 +2599,9 @@ dependencies = [
 
 [[package]]
 name = "lazy_static"
-version = "1.4.0"
+version = "1.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646"
+checksum = "bbd2bcb4c963f2ddae06a2efc7e9f3591312473c50c6685e1f298068316e66fe"
 
 [[package]]
 name = "leb128"
