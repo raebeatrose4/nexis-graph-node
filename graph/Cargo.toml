@@ -16,7 +16,7 @@ bytes = "1.0.1"
 cid = "0.11.0"
 diesel = { workspace = true }
 diesel_derives = { workspace = true }
-chrono = "0.4.31"
+chrono = "0.4.40"
 envconfig = "0.10.0"
 Inflector = "0.11.3"
 isatty = "0.1.9"
